@@ -1,0 +1,27 @@
+Jacob Alderink
+Axel Krings
+CS240-01
+Assignment 3
+
+This program is a simple shell, that operates on bash and executes funtions that are in the Path of the user in their path.
+
+Path can be modified utilizing the bash syntax for export.
+
+to utilize multiple commands on one line; seperate them using a ;.
+
+history can be used and will print out in ascending order the older commands.
+
+msh.c is a normal C file that can be compiled using normal gcc command or g++. A .mshrc file is provided in the tar, but ofcourse is editable and you may utilize your own.
+
+several warnings will appear in the compiling process, but it will still compile and run correctly.
+
+a makefile is provided in the tar, however is not necessary to compile, if it is used, the executable will be name MSH. If you do decide to utilize the makefile, the command "make" will compile the file and name it "MSH". "make all" will delete the previous shell and recompile. 
+
+.mshrc must be placed in the current working directory and can be edited at anytime.
+
+alias operates using the typical BASH syntax for aliasing.
+
+use cd to change directories like in bash.
+
+Type exit to leave msh.
+
